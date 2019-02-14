@@ -1,0 +1,245 @@
+@import "vars"
+
+
+/*==========  Desktop First  ==========*/
++media-breakpoint-down(xxl)
+
+
+// ≥1200px
++media-breakpoint-down(lg)
+
+	.header .navbar-expand-lg .navbar-nav .nav-link
+		padding-right: 0.5rem
+		padding-left: 0.5rem
+
+	.owl-carousel .item
+		padding: 40px 30px
+
+	.gallery-wrap
+		max-width: 50%
+
+	.option
+		&__sale
+			top: 0
+			left: 16px
+			font-size: 29px
+
+
+// ≥992px
++media-breakpoint-down(md)
+
+	.form
+		&__input
+			margin: 0 0 15px
+
+	.container-mobile
+		width: 100%
+		padding: 0
+		margin: 0
+
+	.header
+		&__logo-wrap
+			right: 0
+			left: auto
+			bottom: 0
+			height: 75px
+		&__phone
+			margin-top: 5px
+			z-index: 10000
+			right: 25px
+		&__title
+			margin-top: 50px
+		&__navbar
+			position: relative
+			z-index: 100
+			float: none
+			height: auto
+
+	.phone-panel
+		background: #960794
+
+	.navbar
+		background: #960794
+
+	.navbar-nav
+		float: none
+
+	.option
+		padding-bottom: 115px
+		&__sale
+			position: absolute
+			top: 27px
+			right: 0
+			left: auto
+
+	.hidden-md
+		display: none
+
+	.panel 
+		&__p
+			margin-top: 10px
+			line-height: 1.2
+
+	.info
+		&__h1
+			top: -80px
+
+	.program
+		padding-bottom: 40px
+
+	.footer
+		&__logo-wrap
+			height: auto
+
+
+// ≥768px
++media-breakpoint-down(sm)
+	.circle
+		margin-bottom: 40px
+
+	.header
+		padding-bottom: 135px
+
+	.option
+		&__sale
+			top: 57px
+
+	.gallery-wrap
+		position: relative
+		top: 0
+		max-width: 100%
+
+	.info
+		&__h1
+			position: relative
+			top: 0
+			margin-top: 30px
+
+	.program
+		position: relative
+		&__title
+			white-space: normal
+			right: 0
+			line-height: 1.2
+			margin-bottom: 10px
+
+	.footer
+		padding: 20px 0 40px
+
+	.panel
+		&__item
+			height: 150px
+
+// ≥576px
++media-breakpoint-down(xs)
+	.option
+		padding-bottom: 40px
+		&__sale
+			right: 35px
+			width: 100px
+			top: 105px
+		&__ul
+			margin-top: 0
+
+	.form
+		&__input
+			margin: 0 0 15px
+			min-width: 100%
+
+	.circle
+		width: 280px
+		height: 280px
+		padding: 0 40px
+		&__price
+			font-size: 25px
+
+	.euro
+		top: -7px
+
+	.header
+		&__logo-wrap
+			right: 0px
+			background: none
+			width: 100px
+			bottom: 0
+
+	.hidden-xs
+		display: none
+
+	.question
+		padding-bottom: 40px
+		&__btn
+			float: none
+			width: 100%
+
+	.footer
+		padding: 20px 0 40px
+		&__logo-wrap
+			img 
+				margin-bottom: 20px
+
+	.h1 
+		font-size: 35px
+
+	.p 
+		line-height: 1.2
+
+	.panel
+		&__item
+			height: 150px
+/*==========  Mobile First  ==========*/
+
+// ≤576px
++media-breakpoint-up(sm)
+	.circle
+		width: 350px
+		height: 350px
+		padding: 0 65px
+		&__price
+			font-size: 40px
+
+	.old-price
+		padding-left: 10px
+
+	.euro
+		top: -13px
+
+// ≤768px
++media-breakpoint-up(md)
+	.program
+		&__title
+			font-size: 14px
+			right: 13px
+			margin-bottom: 0
+			
+// ≤992px
++media-breakpoint-up(lg)
+	.circle
+		width: 300px
+		height: 300px
+		padding: 0 50px
+		&__price
+			font-size: 30px
+
+	.old-price
+		padding-left: 10px
+
+	.euro
+		top: -13px
+
+	.program
+		&__title
+			right: 27px
+
+// ≤1200px
++media-breakpoint-up(xl)
+
++media-breakpoint-up(xxl)
+	.circle
+		width: 415px
+		height: 415px
+		padding: 0 65px
+		&__price
+			font-size: 40px
+	.old-price
+		padding-left: 35px
